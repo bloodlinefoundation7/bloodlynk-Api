@@ -1,8 +1,9 @@
-package com.bloodlynk.bloodlynk_api.repository;
+package com.way2blood.api.repository;
 
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.bloodlynk.bloodlynk_api.entity.BloodStock;
+
+import com.way2blood.api.entity.BloodStock;
 
 public interface BloodStockRepository extends JpaRepository<BloodStock, Long> {
 

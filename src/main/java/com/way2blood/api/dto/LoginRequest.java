@@ -1,4 +1,4 @@
-package com.bloodlynk.bloodlynk_api.dto;
+package com.way2blood.api.dto;
 
 public class LoginRequest {
 	private String username;

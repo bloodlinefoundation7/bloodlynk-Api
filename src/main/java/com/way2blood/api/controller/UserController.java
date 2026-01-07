@@ -1,4 +1,4 @@
-package com.bloodlynk.bloodlynk_api.controller;
+package com.way2blood.api.controller;
 
 import java.util.Map;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bloodlynk.bloodlynk_api.entity.User;
-import com.bloodlynk.bloodlynk_api.service.UserService;
+import com.way2blood.api.entity.User;
+import com.way2blood.api.service.UserService;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:5174")

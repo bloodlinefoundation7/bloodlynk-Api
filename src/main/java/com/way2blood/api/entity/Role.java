@@ -1,4 +1,4 @@
-package com.bloodlynk.bloodlynk_api.entity;
+package com.way2blood.api.entity;
 
 public enum Role {
     ADMIN, // Represents the administrator role.

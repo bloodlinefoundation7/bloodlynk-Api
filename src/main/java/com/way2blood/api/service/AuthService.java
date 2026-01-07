@@ -1,4 +1,4 @@
-package com.bloodlynk.bloodlynk_api.service;
+package com.way2blood.api.service;
 
 
 import java.nio.charset.StandardCharsets;
@@ -12,10 +12,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.bloodlynk.bloodlynk_api.entity.JWTToken;
-import com.bloodlynk.bloodlynk_api.entity.User;
-import com.bloodlynk.bloodlynk_api.repository.JWTTokenRepository;
-import com.bloodlynk.bloodlynk_api.repository.UserRepository;
+import com.way2blood.api.entity.JWTToken;
+import com.way2blood.api.entity.User;
+import com.way2blood.api.repository.JWTTokenRepository;
+import com.way2blood.api.repository.UserRepository;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

@@ -1,4 +1,4 @@
-package com.bloodlynk.bloodlynk_api.controller;
+package com.way2blood.api.controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bloodlynk.bloodlynk_api.dto.LoginRequest;
-import com.bloodlynk.bloodlynk_api.entity.User;
-import com.bloodlynk.bloodlynk_api.service.AuthService;
+import com.way2blood.api.dto.LoginRequest;
+import com.way2blood.api.entity.User;
+import com.way2blood.api.service.AuthService;
 
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;

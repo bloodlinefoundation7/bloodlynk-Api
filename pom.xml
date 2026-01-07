@@ -13,8 +13,8 @@
 		<relativePath/>
 	</parent>
 
-	<groupId>com.bloodlynk</groupId>
-	<artifactId>bloodlynk-api</artifactId>
+	<groupId>com.way2blood</groupId>
+	<artifactId>api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bloodlynk-api</name>
 	<description>Blood availability tracking system</description>

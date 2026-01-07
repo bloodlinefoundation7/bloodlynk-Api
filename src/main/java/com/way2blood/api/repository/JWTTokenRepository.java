@@ -1,4 +1,4 @@
-package com.bloodlynk.bloodlynk_api.repository;
+package com.way2blood.api.repository;
 
 import java.util.Optional;
 
@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.bloodlynk.bloodlynk_api.entity.JWTToken;
+import com.way2blood.api.entity.JWTToken;
 
 import jakarta.transaction.Transactional;
 

@@ -1,10 +1,11 @@
-package com.bloodlynk.bloodlynk_api.controller;
+package com.way2blood.api.controller;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.bloodlynk.bloodlynk_api.entity.*;
-import com.bloodlynk.bloodlynk_api.repository.*;
+
+import com.way2blood.api.entity.*;
+import com.way2blood.api.repository.*;
 
 @RestController
 @RequestMapping("/admin/blood-stock")

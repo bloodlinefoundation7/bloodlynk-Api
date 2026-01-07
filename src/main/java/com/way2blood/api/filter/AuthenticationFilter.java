@@ -1,4 +1,4 @@
-package com.bloodlynk.bloodlynk_api.filter;
+package com.way2blood.api.filter;
 
 import jakarta.servlet.Filter;
 import jakarta.servlet.FilterChain;
@@ -17,10 +17,10 @@ import java.util.Optional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.bloodlynk.bloodlynk_api.entity.Role;
-import com.bloodlynk.bloodlynk_api.entity.User;
-import com.bloodlynk.bloodlynk_api.repository.UserRepository;
-import com.bloodlynk.bloodlynk_api.service.AuthService;
+import com.way2blood.api.entity.Role;
+import com.way2blood.api.entity.User;
+import com.way2blood.api.repository.UserRepository;
+import com.way2blood.api.service.AuthService;
 
 @WebFilter(urlPatterns = {"/api/*","/admin/*"})
 public class AuthenticationFilter implements Filter {

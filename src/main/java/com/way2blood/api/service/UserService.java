@@ -1,11 +1,11 @@
-package com.bloodlynk.bloodlynk_api.service;
+package com.way2blood.api.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.bloodlynk.bloodlynk_api.entity.User;
-import com.bloodlynk.bloodlynk_api.repository.UserRepository;
+import com.way2blood.api.entity.User;
+import com.way2blood.api.repository.UserRepository;
 
 @Service
 public class UserService {
